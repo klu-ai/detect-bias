@@ -7,6 +7,7 @@ Structure
 - icon-generation (code for generating the extension icons)
 - non-klu (variation for non KLU API)
 
+```
 detect-bias/
 ├── .git/
 ├── .gitignore
@@ -38,3 +39,4 @@ detect-bias/
     ├── background-direct.js
     ├── ideation.md
     └── prompt.txt
+```

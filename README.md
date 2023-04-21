@@ -1,0 +1,1 @@
+# Bias Detector for Firefox

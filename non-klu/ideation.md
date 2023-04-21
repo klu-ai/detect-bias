@@ -5,6 +5,7 @@ Create a content script to extract the article content.
 Create a background script to communicate with the KLU API.
 Update the extension icon based on the bias score.
 Create a popup page to display the analysis when the icon is clicked.
+
 Here's the pseudocode for the implementation:
 
 // manifest.json

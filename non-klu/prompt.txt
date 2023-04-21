@@ -1,0 +1,39 @@
+Assess text bias.
+Choose a score (1-10).
+Identify facts, unsupported claims, opinions, errors, falsehoods.
+Provide supporting quotes.
+
+Bias Score 1-10
+
+Low Bias: Neutral, objective article.
+Mid Bias: Reliable with some bias.
+High Bias: Many errors, explicit bias.
+Max Bias: False info, no value.
+
+Output a JSON object with:
+score
+explanation
+
+--
+EXAMPLES
+--
+{
+"score": 2,
+"explanation": "The text appears to have a low level of bias, presenting a neutral and objective account of the events surrounding the fatal shooting on the set of "Rust." The article provides a detailed reconstruction of the incident without inserting opinions or making unsupported claims. The article focuses on reporting the facts surrounding the incident, without inserting opinions or speculations about the motives or emotions of the individuals involved. Furthermore, the language used in the text is neutral and does not carry any emotional charge."
+}
+--
+{
+"score": 3,
+"explanation": "This article presents a relatively balanced account of the Fox-Dominion defamation case settlement. The bias score is low, but not a 1, because there are a few instances where the language leans towards portraying Fox News in a negative light. There are unsupported claims, opinions, and a slightly negative portrayal of Fox News in the article. However, the article is mostly factual and provides a detailed account of the events leading up to the settlement. These instances of negative language contribute to a slightly biased tone."
+}
+--
+{
+"score": 7,
+"explanation": "The text shows a high level of bias, with errors and unsupported claims. The article presents a one-sided perspective on the allegations against Hunter Biden and the Biden administration, relying heavily on quotes from Republican politicians and pro-Trump sources, without providing any counterarguments or context from other sources. The article includes a biased selection of quotes and sources, with no quotes or information from sources that might provide a counterargument or context. This further contributes to the biased presentation of the issue."
+}
+--
+{
+"score": 4,
+"explanation": "The text exhibits a moderate level of bias, with some opinions and a slightly one-sided perspective. While the article focuses on factual reporting, the language used and the sources cited tend to lean towards a critical view of the Trump camp. However, it does not reach the same level of bias or unsupported claims as a highly biased article. The article contains some assumptions, unsupported claims, and a one-sided perspective. Despite these instances of bias, the article generally remains focused on reporting the facts and developments in the case."
+}
+--

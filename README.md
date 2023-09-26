@@ -5,7 +5,7 @@ This is a Firefox extension that uses the KLU API to analyze the bias of online 
 Structure
 - detect-bias-extension (the Firefox extension)
 - icon-generation (code for generating the extension icons)
-- non-klu (variation for non KLU API)
+- non-klu (variation for non [KLU API](https://docs.klu.ai/))
 
 ```
 detect-bias/
